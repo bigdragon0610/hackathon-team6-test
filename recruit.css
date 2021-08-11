@@ -1,0 +1,187 @@
+html{
+    box-sizing: border-box;
+    word-break: normal;
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    background-image: url("bg-geometry.png");
+    text-align: center;
+    font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    margin: 0 auto;
+}
+
+.recruit-message{
+    padding: 40px 0;
+}
+
+.recruit-message_heading{
+    color: #391E88;
+}
+
+.recruit-message_title{
+    background: repeat;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+.recruit-message_subtitle{
+    font-size: 32px;
+}
+
+.recruit-message_body{
+    color: black;
+    font-size: 15px;
+    width: 100%;
+}
+
+.recruit-message_img-wrapper{
+    overflow: hidden;
+    background-image: url("recruit01.png");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    background-size: cover;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+
+.job-list{
+    padding:0 0 70px;
+}
+
+.l-inner{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: #391E88;
+    font-size: 24px;
+}
+
+.job-list_detail{ 
+    padding: 60px 95px;
+    border: 1px solid #b067cf;
+    border-radius: 6px;
+    background-color: #fff;
+    color: black;
+    text-align: left;
+}
+
+.job-list_name{
+    font-size: 16px;
+    text-align: center;
+}
+
+.tr{
+    border-bottom: 1px solid rgb(221,221,221);
+    display: table;
+    width: 100%;
+}
+
+.box{
+    display: table-cell;
+
+}
+
+.th{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 30px 10px;
+    width: 20%;
+    vertical-align:middle;
+}
+
+.td{
+    font-size: 14px;
+    padding: 30px 10px;
+    width: 80%;
+
+}
+
+p{
+    margin: 0;
+    width: 100%;
+}
+
+li{
+    font-size: 14px;
+}
+
+.job-list_link{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    line-height: 1.4;
+    display: inline-block;
+    width: 200px;
+    padding: 20px 0;
+    transition: .3s;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #7633a4 0%, #250d65 51%, #7633a4 100%);
+    background-size: 200% auto;
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+.job-list_link-note{
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+.company-gallary{
+    padding: 70px 0;
+}
+
+.heading-secondary{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.movie-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+}
+
+.movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    margin-top: 40px;
+    padding: 80px 0;
+    background-color: #f0f0f0;
+}
+
+.heading-primary{
+    color: #391E88;
+    font-size: 36px;
+    font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    margin: 0;
+}
+
+.heading-primary_sub{
+    color: #391E88;
+    font-size: 13px;
+    font-family: "Montserrat",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    margin-top: 5px;
+    display: block;
+}
