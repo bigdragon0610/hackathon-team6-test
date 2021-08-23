@@ -8,3 +8,4 @@ otherNews1Title.onclick=function(){
 returnNewsList.onclick=function(){
     location.href="news.html";
 }
+//test//
