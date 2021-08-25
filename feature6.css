@@ -1,0 +1,129 @@
+@media screen and (min-width: 847px) {
+.greeting {
+  position: relative;
+  text-align: center;
+  height: 500px;
+ display: inline-block;
+}
+.greeting1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #391e88;
+ font-size: 40px;
+}
+.greeting2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-decoration-line:  underline;
+  text-decoration-color:  #f5f534;
+  font-size: 50px;
+  margin: 50px 0 10px 0;
+}
+.greeting3 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 70px 0 0 0;
+  font-weight: lighter;
+}
+  .ceo {
+    display: flex;
+  }
+  .ceo-img {
+    width: 40%;
+    /* height: auto; */
+  }
+}
+.greeting img {
+  width: 100%;
+}
+.company-summary {
+  text-align: center;
+  color: #391e88;
+  margin: 10% 0 5% 0;
+  font-size: 200%;
+}
+.box {
+  border-bottom: 0.1px solid gray;
+  display: flex;
+  height: 100px;
+  margin:0 10% 0 10%;
+}
+
+.ceo-text {
+  font-size: 90%;
+}
+
+.element {
+  width: 20%;
+  font-weight: bolder;
+  margin: 1% 0 1% 0;
+}
+.content {
+  font-weight: 5;
+  margin: 1% 0 1% 0;
+}
+
+
+
+@media screen and (max-width: 847px) {
+
+    .greeting {
+       
+        text-align: center;
+        height: 500px;
+       display: inline-block;
+      }
+      .greeting1 {
+       
+        top: 10%;
+        left: 50%;
+        margin: 0;
+        color: #391e88;
+       font-size: 40px;
+      }
+      .greeting2 {
+        
+        top: 20%;
+        left: 50%;
+        margin: 0;
+        text-decoration-line:  underline;
+        text-decoration-color:  #f5f534;
+        font-size: 50px;
+        margin: 50px 0 10px 0;
+      }
+      .greeting3 {
+
+    
+        top: 45%;
+        left: 50%;
+        margin: 70px 0 0 0;
+        font-weight: lighter;
+      }
+    .face-image {
+      display: none;
+    }
+    .ceo-img {
+        width: 100%;
+        /* height: auto; */
+      }
+  }
+  .map{
+margin:10px;
+/* width: 100%; */
+height: 600px;
+margin:20px 10% 0 10%;
+  }
