@@ -1,0 +1,62 @@
+.text{
+    text-align: center;
+}
+/* .box0{
+    width: 20%;
+    margin-left: 20%;
+    float: left;
+}
+.box1{
+    width: 20%;
+     margin-left: 0%; 
+    margin-right: 50%;
+    float: left;
+}
+.box2{
+    width: 20%;
+    margin-right: 20%;
+    float: left;
+}
+.box3{
+    width: 20%;;
+    float: left;
+}
+.box4{
+    width: 20%;
+    float: left;
+} */
+.box{
+    margin: 15%;
+    padding: 0 5% 0 5%;
+    /* margin         : auto;                 サンプル用 中央寄せ */
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background     : #fff;                 /* BOXの背景色         */
+  /* border         : 1px solid #666;       枠線の指定          */
+  width          : 380px;                /* BOXの幅             */
+  max-height     : auto;                /* BOXの高さ           */
+  /* animation: boxAnime 10s linear infinite alternate; */
+
+  /* ▼ FlexBoxの定義 */
+  display        : flex;                 /* FlexBox定義         */
+  flex-wrap      : wrap;                 /* 折り返し定義        */
+
+}
+
+.image{
+    width: 100%;
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    /* float: left; */
+}
+.container{
+    display: inline-block;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* overflow: hidden; */
+}
+.text{
+  margin: auto;
+  text-decoration: inherit;
+  font-size: 1rem;
+  /* font-weight: lighter; */
+}
+/* div{font-weight: 5;} */
