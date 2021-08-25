@@ -1,0 +1,39 @@
+.header{
+    background-color: #21054D;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+    transition: all .3s;
+    height: 1px;
+}
+
+.global-nav_list{
+    display: flex;
+    padding-left: 30px;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.global-nav_list li{
+    display: inline-block;
+    margin: 0 5px;
+} 
+
+a{
+    text-decoration:none;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.global-nav_list ::after {
+    box-sizing: inherit;
+    background-repeat: no-repeat;
+}
