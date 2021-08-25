@@ -37,3 +37,31 @@ a{
     box-sizing: inherit;
     background-repeat: no-repeat;
 }
+.item {
+  display: flex;
+  text-decoration: blanchedalmond;
+  width: 415.73px;
+  margin: 0 auto;
+  height: 100px;
+}
+.footer {
+  background-color: #120e19;
+  text-align: center;
+  height: 200px;
+}
+.button {
+  margin: auto;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+.logo {
+  text-decoration: none;
+  color: #a798b7;
+  font-size: 10px;
+}
+.logoButton {
+  height: 80px;
+}
+/* a */
+© 2021 GitHub, Inc.
